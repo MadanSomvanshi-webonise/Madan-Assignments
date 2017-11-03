@@ -1,0 +1,8 @@
+sudo adduser user1
+gedit demo.txt
+sudo chown user1: demo.txt
+ls -l
+sudo chown 700 demo.txt
+su user1
+vi demo.txt
+
