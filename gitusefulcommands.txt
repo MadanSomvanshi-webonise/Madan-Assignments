@@ -1,0 +1,6 @@
+git rm			Removes files from your index and your working directory so that they will not be tracked
+git reset		Resets your index and working directory to the state of your last commmit
+git stash		Temporarily saves changes that you don't want to commit immediately
+git tag			Tags a specific commit with a simple,human readable handle that never moves
+git fetch		Fetches all the objects from the remote repository that are not present in the local one.
+git fsck 		Does an integrity check of the Git file system, identifying corrupted objects.
