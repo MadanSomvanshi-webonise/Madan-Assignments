@@ -1,0 +1,39 @@
+Deleting a branch
+        git branch -d localbranch
+        By using the above git command the barnch you want to delete will be deleted, here you have to be on the different branch.
+
+Deleteing a file
+        git rm filename			
+        Removes files from your index and your working directory so that they will not be tracked
+
+git reset 
+        git reset filename			
+        Before pushing any file to git we have to add it using git add.Now if you realize that the file should not be pushed, then use the git reset command.
+        
+git stash
+        git stash  (it bydefault means saves, however stash can be used in many ways)			
+        You have modified a file and now you need to switch to master branch ,then instead of commiting your changes you can temporarily saves changes using stash    command
+        
+git tag				
+        Tags a specific commit with a simple,human readable handle that never moves
+        
+git fetch
+        git fetch --all
+	Fetches all the objects from the remote repository that are not present in the local one.
+	
+git fsck
+        git fsck
+        Does an integrity check of the Git file system, identifying corrupted objects.
+        
+git add .	
+       This command adds all the files including untracked files also to git
+
+
+git show commit		
+        shows information about a git object here it is commit, however it may chane
+
+git ls-tree	
+	shows a tree object
+
+git gc 	
+	garbage collector for your repository
